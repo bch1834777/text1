@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" /> 
+		<script src='js/jquery-3.2.1.js'></script>        
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/alert.js" ></script>
+	</head>
+	<body>
+		<div class="nav nav-tabs">
+			<div class="choice active" style="margin-right: 2.5%;">
+				<div class="choice_content" data-toggle="tab" href="#t1">
+					<h1>高级版</h1>
+					<p>适合独立摄影师</p>
+				</div>
+			</div>
+			<div class="choice " style="margin-left: 2.5%;">
+				<div class="choice_content" data-toggle="tab" href="#t2">
+					<h1>定制版</h1>
+					<p>适合小型工作室</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="tab-content">
+			<div id="t1" class="tab-pane fade in active">
+				<div class="content">
+					<h1>高级版<span>(适合<span style="color:rgb(253,77,87) ;">独立摄影师</span>)</span></h1>
+				</div>
+				<div  class="premium" >
+					<div class="icon_ac"  onclick="alertp1()">
+						<img src="img/icon1.jpg" />
+						<p id="p1">标题1</p>
+					</div>
+					<div  class="icon_unac">
+						<img src="img/icon2.jpg" />
+						<p id="p2">标题2</p>
+					</div>
+					<div class="icon_ac" onclick="alertp3()">
+						<img src="img/icon1.jpg" />
+						<p id="p3">标题3</p>
+					</div>
+					<div class="icon_ac" onclick="alertp4()">
+						<img src="img/icon1.jpg" />
+						<p id="p4">标题4</p>
+					</div>
+					<div class="icon_unac">
+						<img src="img/icon2.jpg" />
+						<p id="p5">标题5</p>
+					</div>
+					<div class="icon_unac" >
+						<img src="img/icon2.jpg" />
+						<p id="p6">标题6</p>
+					</div>
+					<div class="icon_unac">
+						<img src="img/icon2.jpg" />
+						<p id="p7">标题7</p>
+					</div>
+					<div class="icon_ac" onclick="alertp8()">
+						<img src="img/icon1.jpg" />
+						<p id="p8">标题8</p>
+					</div>
+					<div class="icon_unac">
+						<img src="img/icon2.jpg" />
+						<p id="p9">标题9</p>
+					</div>
+					<div class="icon_ac" onclick="alertp10()">
+						<img src="img/icon1.jpg" />
+						<p id="p10">标题10</p>
+					</div>	
+				</div>	
+			</div>
+
+			<div id="t2" class="tab-pane fade">
+				<div class="content">
+					<h1>定制版<span>(适合<span style="color:rgb(253,77,87) ;">小型工作室</span>)</span></h1>
+				</div>
+				<div  class="premium">
+					<div class="icon_ac" onclick="alertd1()">
+						<img src="img/icon1.jpg" />
+						<p id="d1">标题1</p>
+					</div>
+					<div  class="icon_ac" onclick="alertd2()">
+						<img src="img/icon1.jpg" />
+						<p id="d2">标题2</p>
+					</div>
+					<div class="icon_ac" onclick="alertd3()">
+						<img src="img/icon1.jpg" />
+						<p id="d3">标题3</p>
+					</div>
+					<div class="icon_ac" onclick="alertd4()">
+						<img src="img/icon1.jpg" />
+						<p id="d4">标题4</p>
+					</div>
+					<div class="icon_ac" onclick="alertd5()">
+						<img src="img/icon1.jpg" />
+						<p id="d5">标题5</p>
+					</div>
+					<div class="icon_ac" onclick="alertd6()">
+						<img src="img/icon1.jpg" />
+						<p id="d6">标题6</p>
+					</div>
+					<div class="icon_ac" onclick="alertd7()">
+						<img src="img/icon1.jpg" />
+						<p id="d7">标题7</p>
+					</div>
+					<div class="icon_ac" onclick="alertd8()">
+						<img src="img/icon1.jpg" />
+						<p id="d8">标题8</p>
+					</div>
+					<div class="icon_ac" onclick="alertd9()">
+						<img src="img/icon1.jpg" />
+						<p id="d9">标题9</p>
+					</div>
+					<div class="icon_ac" onclick="alertd10()">
+						<img src="img/icon1.jpg" />
+						<p id="d10">标题10</p>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
